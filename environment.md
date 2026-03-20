@@ -115,3 +115,22 @@ Additional Kerberos details observed:
 | claire.admin in Domain Admins | High | General Manager has domain admin rights. A targeted attack on her account would allow full domain compromise. Organizational decision. |
 | svc_backup, svc_ftp, svc_monitor — PasswordNeverExpires | Medium | Service accounts require coordination with application owners before password rotation. |
 
+
+## DHCP
+
+| Field | Value |
+|------|------|
+| DHCP Server | dc01.becode.corp.lab |
+| Scope name | BeCode-Corp-Lab |
+| IP range | 10.0.0.10 – 10.0.0.100 |
+| Subnet mask | 255.255.255.0 |
+| Default gateway | 10.0.0.4 |
+| DNS server | 10.0.0.4 |
+| DNS domain | becode.corp.lab |
+| Dynamic DNS updates | Enabled |
+
+## Note — multi-scope production deployment
+
+In a real BeCode Corp. deployment, one DHCP scope would exist per VLAN.
+Each department network (Management, Study, Production, Support-A, Support-B, IT) would have its own subnet and DHCP scope aligned with the VLAN addressing plan defined in the network project.
+
