@@ -136,10 +136,10 @@ Each department network (Management, Study, Production, Support-A, Support-B, IT
 
 ## Sysmon
 
-
-| Field         | Value                                     ||
-| Version       | 15.15                                     |
-| Configuration | SwiftOnSecurity sysmon-config             |
-| Log channel   | Microsoft-Windows-Sysmon/Operational      |
-| Install date  | 24 March 2026                             |
+| Field | Value |
+|------|------|
+| Version | 15.15 |
+| Configuration | SwiftOnSecurity sysmon-config |
+| Log channel | Microsoft-Windows-Sysmon/Operational |
+| Install date | 24 March 2026 |
 
