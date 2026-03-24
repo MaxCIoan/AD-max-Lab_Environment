@@ -137,8 +137,7 @@ Each department network (Management, Study, Production, Support-A, Support-B, IT
 ## Sysmon
 
 
-| Field         | Value                                     |
-|---------------|-------------------------------------------|
+| Field         | Value                                     ||
 | Version       | 15.15                                     |
 | Configuration | SwiftOnSecurity sysmon-config             |
 | Log channel   | Microsoft-Windows-Sysmon/Operational      |
