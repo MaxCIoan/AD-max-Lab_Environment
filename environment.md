@@ -134,3 +134,13 @@ Additional Kerberos details observed:
 In a real BeCode Corp. deployment, one DHCP scope would exist per VLAN.
 Each department network (Management, Study, Production, Support-A, Support-B, IT) would have its own subnet and DHCP scope aligned with the VLAN addressing plan defined in the network project.
 
+## Sysmon
+
++---------------+-------------------------------------------+
+| Field         | Value                                     |
++---------------+-------------------------------------------+
+| Version       | 15.15                                     |
+| Configuration | SwiftOnSecurity sysmon-config             |
+| Log channel   | Microsoft-Windows-Sysmon/Operational      |
+| Install date  | 24 March 2026                             |
++---------------+-------------------------------------------+
